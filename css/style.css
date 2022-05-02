@@ -15,7 +15,7 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   margin: 20px;
-  padding-inline: 100px;
+  padding-inline: 280px;
 }
 
 .header-main {
@@ -55,8 +55,8 @@ a,
 .hero {
   display: flex;
   justify-content: space-between;
-  padding-inline: 350px;
-  margin: 40px;
+  padding-inline: 200px;
+  margin: 100px;
 }
 
 img {
@@ -68,8 +68,7 @@ img {
   background-color: white;
   text-align: center;
   flex: 1;
-  padding: 20px;
-  margin-top: 30px;
+  padding: 50px;
   justify-content: center;
 }
 
@@ -91,4 +90,34 @@ img {
 
 .container {
   display: flex;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  align-items: end;
+  padding-inline: 550px;
+  gap: 8px;
+  height: 400px;
+  justify-content: center;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1F2937
+}
+
+.quote-author {
+  font-size: 16px;
+  font-weight: 800;
+  color: #1F2937;
+}
+
+.cta{
+  display: flex;
+  background-color: #3882F6;
 }
